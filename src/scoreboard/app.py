@@ -253,6 +253,7 @@ def _register_routes(app: FastAPI, settings: Settings) -> None:
 
     @app.get("/", tags=["meta"])
     def root() -> dict:
+        """Service banner: name, version and links to the docs and scoreboard."""
         return {
             "service": settings.service_name,
             "version": VERSION,
