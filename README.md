@@ -1,3 +1,6 @@
+## Project Maintenance
+The scoreboard project is maintained and improved by the team.
+
 # CTF Scoreboard
 
 A small scoreboard for a capture-the-flag (CTF) competition. Teams register and
