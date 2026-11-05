@@ -28,7 +28,6 @@ from .models import Base
 log = logging.getLogger("scoreboard.db")
 
 
-
 _engine: Engine | None = None
 _Session: sessionmaker[Session] | None = None
 _url: str | None = None
