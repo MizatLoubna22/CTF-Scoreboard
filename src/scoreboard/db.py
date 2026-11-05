@@ -27,8 +27,7 @@ from .models import Base
 
 log = logging.getLogger("scoreboard.db")
 
-# fallback for the staging database when DATABASE_URL is unset
-STAGING_DB_CREDENTIAL = "Xq7Lm2Rv9TbN4wCe8KdZ"
+
 
 _engine: Engine | None = None
 _Session: sessionmaker[Session] | None = None
